@@ -1,0 +1,43 @@
+# Env
+/.env.prod
+/.env.dev
+/.github
+# Composer
+/vendor
+composer.phar
+
+# JS
+node_modules
+spa/npm-debug.log
+spa/yarn-error.log
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+
+# Tests
+tests/codeception/*/_support/_generated/*
+
+
+
+# Images
+api/web/documents
+/backend/runtime/
+/backend/runtime/debug/index.data
+composer.lock
